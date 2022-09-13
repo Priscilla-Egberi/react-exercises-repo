@@ -1,0 +1,32 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(197, 193, 193);
+}
+.heading{
+    color:#000;
+    font-size: 90px;
+    background-color: pink;
+    margin: 0;
+    padding: 10px 20px 10px 20px;
+    font-family: 'McLaren', cursive;
+}
+
+.card{
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px grey;
+    background-color: #fff;
+    width: 300px;
+    padding: 10px 10px;
+    margin: 20px 20px;
+}
+.inline-block{
+    display:inline-block
+}
+.footer{
+    
+    position: absolute;
+    bottom:4%;
+    left: 60%;
+}
