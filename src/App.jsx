@@ -2,11 +2,14 @@ import React from "react";
 import Header from "./exercise1/Header";
 import Card from "./exercise1/Card";
 import Footer from "./exercise1/Footer";
-import ContactCard from "./exercise2/ContactCard"
-import contact from "./contacts.js"
-import ComponentCard from "./exercise2/ComponentCard"
+import ContactCard from "./exercise2/ContactCard";
+import contact from "./contacts.js";
+import ComponentCard from "./exercise2/ComponentCard";
 import contacts from "./contacts.js";
-import CreateCard from "./exercise3/createcard"
+import CreateCard from "./exercise3/createcard";
+import Emojipedia from "./exercise4/Emojipedia.jsx"
+
+
 
 
 
@@ -55,8 +58,8 @@ function App(){
 
 {contacts.map(CreateCard)}
 
-    
-
+<h1>MAPPING COMPONENT INSIDE A COMPONENT</h1>
+<Emojipedia />
     
     <Footer />
     </section>
